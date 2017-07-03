@@ -1,2 +1,5 @@
 
 *.ospx
+coverage/
+.sonar/
+.sonarlint/

@@ -18,6 +18,9 @@ before_install:
   - sudo apt-get install mono-complete mono-devel
   - sudo dpkg -i os.deb; sudo apt install -f
   - sudo oscript /usr/share/oscript/lib/opm/src/opm.os install opm
+  - sudo oscript /usr/share/oscript/lib/opm/src/opm.os install logos
+  - sudo oscript /usr/share/oscript/lib/opm/src/opm.os install 1commands
+  - sudo oscript /usr/share/oscript/lib/opm/src/opm.os install 1testrunner
   - oscript
 
 install: 

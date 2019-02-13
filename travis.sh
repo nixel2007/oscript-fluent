@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-oscript /usr/share/oscript/lib/opm/src/opm.os run coverage
+oscript ./tasks/coverage.os
 
 temp=`cat packagedef | grep ".Версия(" | sed 's|[^"]*"||' | sed -r 's/".+//'`
 version=${temp##*|}

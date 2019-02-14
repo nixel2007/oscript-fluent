@@ -8,7 +8,7 @@ version=${temp##*|}
 
 if [ "$TRAVIS_SECURE_ENV_VARS" == "true" ]; then
   if [ "$TRAVIS_BRANCH" == "develop" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
-    java -jar ./bsl-language-server.jar -a -s ./src
+    java -jar ./bsl-language-server.jar -a -s ./src -r json
 
     sonar-scanner \
         -Dsonar.host.url=$SONAR_HOST \

@@ -21,7 +21,7 @@ before_install:
   - sudo opm install 1commands
   - sudo opm install 1testrunner
   - oscript
-  - wget -O bsl-language-server.jar https://github.com/1c-syntax/bsl-language-server/releases/download/v0.3.0/bsl-language-server-0.3.0.jar
+  - wget -O bsl-language-server.jar https://github.com/1c-syntax/bsl-language-server/releases/download/v0.4.0/bsl-language-server-0.4.0.jar
 
 install: 
   - sudo opm install

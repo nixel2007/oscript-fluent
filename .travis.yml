@@ -1,6 +1,6 @@
-sudo: required
+language: none
 
-lang: none
+sudo: required
 
 dist: trusty
 

@@ -1,8 +1,8 @@
 # fluent
 [![Build Status](https://travis-ci.org/nixel2007/oscript-fluent.svg?branch=develop)](https://travis-ci.org/nixel2007/oscript-fluent)
-[![Quality Gate](https://sonar.silverbulleters.org/api/badges/gate?key=oscript-fluent)](https://sonar.silverbulleters.org/dashboard/index/oscript-fluent)
-[![Coverage](https://sonar.silverbulleters.org/api/badges/measure?key=oscript-fluent&metric=coverage)](https://sonar.silverbulleters.org/dashboard/index/oscript-fluent)
-[![Tech debt](https://sonar.silverbulleters.org/api/badges/measure?key=oscript-fluent&metric=sqale_debt_ratio)](https://sonar.silverbulleters.org/dashboard/index/oscript-fluent)
+[![Quality Gate](https://sonar.oscript.ru/api/project_badges/measure?project=oscript-fluent&metric=alert_status)](https://sonar.oscript.ru/dashboard?id=oscript-fluent)
+[![Maintainability](https://sonar.oscript.ru/api/project_badges/measure?project=oscript-fluent&metric=sqale_rating)](https://sonar.oscript.ru/dashboard?id=oscript-fluent)
+[![Coverage](https://sonar.oscript.ru/api/project_badges/measure?project=oscript-fluent&metric=coverage)](https://sonar.oscript.ru/dashboard?id=oscript-fluent)
 
 Библиотека быстрой обработки коллекций.
 

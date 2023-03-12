@@ -3,3 +3,4 @@
 coverage/
 .sonar/
 .sonarlint/
+oscript_modules/

@@ -1,5 +1,7 @@
 
 *.ospx
-coverage/
+build/
 .sonar/
 .sonarlint/
+.vscode
+oscript_modules/

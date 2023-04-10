@@ -4,3 +4,4 @@ build/
 .sonar/
 .sonarlint/
 .vscode
+oscript_modules/

@@ -9,7 +9,7 @@ on:
         types: [published, edited]
 
 env:
-  PACKAGE_MASK: autumn-*.ospx
+  PACKAGE_MASK: fluent-*.ospx
 
 jobs:
   build:

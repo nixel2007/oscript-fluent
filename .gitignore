@@ -1,6 +1,7 @@
 
 *.ospx
 build/
+out/
 .sonar/
 .sonarlint/
 .vscode

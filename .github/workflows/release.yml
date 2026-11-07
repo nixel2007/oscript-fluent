@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: read
+  id-token: write
 
 jobs:
   release:
@@ -17,5 +18,4 @@ jobs:
     with:
       oscript_version: stable
       package_mask: fluent-*.ospx
-    secrets:
-      PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+      trusted_publishing: true

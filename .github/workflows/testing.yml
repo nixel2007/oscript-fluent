@@ -16,17 +16,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - oscript_version: '1.8.3'
-            opm_version: '1.1.0'
-          - oscript_version: lts
-            opm_version: ''
-          - oscript_version: stable
-            opm_version: ''
-          - oscript_version: dev
-            opm_version: ''
+        oscript_version: [default, lts, stable, dev]
     uses: autumn-library/workflows/.github/workflows/test.yml@v1
     with:
       oscript_version: ${{ matrix.oscript_version }}
-      opm_version: ${{ matrix.opm_version }}
       build_package: true

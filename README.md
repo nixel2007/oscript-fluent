@@ -1,11 +1,13 @@
 # fluent
 
-[![Build Status](https://travis-ci.org/nixel2007/oscript-fluent.svg?branch=develop)](https://travis-ci.org/nixel2007/oscript-fluent)
+[![Тестирование](https://github.com/nixel2007/oscript-fluent/actions/workflows/testing.yml/badge.svg?branch=develop)](https://github.com/nixel2007/oscript-fluent/actions/workflows/testing.yml)
 [![Quality Gate](https://sonar.openbsl.ru/api/project_badges/measure?project=oscript-fluent&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=oscript-fluent)
 [![Maintainability](https://sonar.openbsl.ru/api/project_badges/measure?project=oscript-fluent&metric=sqale_rating)](https://sonar.openbsl.ru/dashboard?id=oscript-fluent)
 [![Coverage](https://sonar.openbsl.ru/api/project_badges/measure?project=oscript-fluent&metric=coverage)](https://sonar.openbsl.ru/dashboard?id=oscript-fluent)
 
 Библиотека быстрой обработки коллекций.
+
+Для установки актуальных зависимостей требуется OneScript 1.9.2 или новее.
 
 Позволяет в "текучем" стиле обрабатывать коллекции - фильтровать, упорядочивать, выполнять операции над элементы, получать результат в виде заданного типа и др.
 
@@ -44,6 +46,10 @@
 
 * Строк библиотека [lambdas](https://github.com/oscript-library/lambdas)
 * Действие
+
+Переприсваивание входных параметров обработчика не заменяет элементы процессора или значения полей, переданных в `СортироватьПо`.
+Объекты передаются без глубокого копирования: изменение их свойств или содержимого сохраняется.
+Для замены элементов используйте результат функции в `Обработать`.
 
 Библиотека помимо конструктора класса `ПроцессорКоллекций` содержит вспомогательный модуль, включающий:
 

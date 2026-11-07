@@ -1,0 +1,20 @@
+name: Контроль качества (форк)
+
+on:
+  workflow_run:
+    workflows: [Контроль качества]
+    types: [completed]
+
+permissions: {}
+
+jobs:
+  sonar:
+    permissions:
+      actions: read
+      contents: read
+      pull-requests: read
+    uses: autumn-library/workflows/.github/workflows/sonar-fork.yml@v1
+    with:
+      github_repository: nixel2007/oscript-fluent
+    secrets:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
